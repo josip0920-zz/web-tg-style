@@ -1,0 +1,201 @@
+:root {
+    --border-radius-messages: 0.425rem !important;
+}
+
+.ListItem.chat-item-clickable .Avatar {
+    display: flex !important;
+    padding: 4px !important;
+    background-clip: content-box !important;
+}
+
+.Avatar img:not(.emoji) {
+    display: block !important;
+}
+
+#MediaViewer .media-viewer-content>img {
+    display: block !important;
+}
+
+.ProfilePhoto {
+    display: block !important;
+}
+
+.message-content.media .media-inner.interactive,
+.WebPage .media-inner.interactive {
+    display: flex !important;
+}
+
+.StickerPicker-main {
+    display: block !important;
+}
+
+.message-content.custom-shape .media-inner .full-media {
+    visibility: visible !important;
+    content: unset !important;
+}
+
+.StickerSetModal .stickers {
+    display: block !important;
+}
+
+
+/* Chat */
+.chat-list {
+    padding: 1px 0px !important;
+    margin-right: -8px !important;
+}
+
+.ListItem.chat-item-clickable .ListItem-button {
+    border-radius: 0px !important;
+}
+
+.VideoPlayer {
+    display: block !important;
+}
+
+.middle-column-footer {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0px !important;
+}
+
+.middle-column-footer .Composer {
+    margin: 0px !important;
+}
+
+#message-compose {
+    max-width: 100% !important;
+    border-radius: 0px !important;
+}
+
+.middle-column-footer .record {
+    display: none !important;
+}
+
+.messages-container {
+    margin: 0px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.SearchInput {
+    height: 35px !important;
+    border-radius: 10px !important;
+}
+
+#telegram-search-input {
+    height: 30px !important;
+    padding: 1px 43px !important;
+}
+
+.SearchInput .icon-search {
+    top: 0.3rem !important;
+}
+
+.MiddleHeader {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    background: rgb(23 33 43) !important;
+}
+
+.Chat.selected .ListItem-button {
+    background: #2b5378 !important;
+}
+
+#LeftColumn-main .ChatFolders .Tab {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.Message.message-list-item {
+    --background-color: #182533 !important;
+}
+
+.Message.own {
+    --background-color: #2b5378 !important;
+}
+
+
+.MessageList .messages-container {
+    padding: 1rem 1.5rem 0 1.125rem !important;
+}
+
+.EmbeddedMessage:hover {
+    background-color: rgb(24 37 51) !important;
+}
+
+.Button.secondary:not(.disabled):not(:disabled):hover {
+    background-color: rgb(43 83 120) !important;
+}
+
+
+
+.Button.secondary {
+    display: none;
+    background: #273546 !important;
+}
+
+.chat-list {
+    background: #17212b !important;
+}
+
+.ListItem:not(.disabled):not(.is-static) .ListItem-button:hover,
+.ListItem:not(.disabled):not(.is-static) .ListItem-button:focus {
+    background: #202b36 !important;
+}
+
+.ListItem .ListItem-button {
+    background: #17212b !important;
+}
+
+.MessageOutgoingStatus i {
+    background: none !important;
+}
+
+.left-header {
+    background-color: #17212b !important;
+}
+
+.TabList {
+    background-color: #17212b !important;
+}
+
+.SearchInput {
+    background-color: #273546 !important;
+}
+
+.message-input-wrapper {
+    background-color: #17212b !important;
+}
+
+.MiddleHeader .HeaderPinnedMessage-wrapper {
+    background: rgb(23 33 43) !important;
+}
+
+.square-image canvas {
+    display: none;
+}
+
+.menu-container{
+    background: #17212b !important;
+}
+
+.Menu .footer{
+    background: rgb(34 49 64) !important;
+}
+
+.MenuItem:hover{
+    background: #202b36 !important;
+}
+
+.settings-content{
+    background: rgb(23 33 43) !important;
+}
+
+.form-control{
+    background-color: rgb(12 23 34) !important;
+}
+
+.input-group label{
+    background-color: #0c1722 !important;
+}
