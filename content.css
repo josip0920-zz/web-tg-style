@@ -83,6 +83,7 @@
     border-radius: 10px !important;
 }
 
+input.form-control,
 #telegram-search-input {
     height: 30px !important;
     padding: 1px 43px !important;
@@ -176,26 +177,43 @@
     display: none;
 }
 
-.menu-container{
+.menu-container {
     background: #17212b !important;
 }
 
-.Menu .footer{
+.Menu .footer {
     background: rgb(34 49 64) !important;
 }
 
-.MenuItem:hover{
+.MenuItem:hover {
     background: #202b36 !important;
 }
 
-.settings-content{
+.settings-content {
     background: rgb(23 33 43) !important;
 }
 
-.form-control{
+.form-control {
     background-color: rgb(12 23 34) !important;
 }
 
-.input-group label{
+.input-group label {
     background-color: #0c1722 !important;
+}
+
+.LeftSearch .active>div {
+    background: #17212b !important;
+}
+
+.RecentContacts .top-peer-item:hover {
+    background: #202b36 !important;
+}
+
+#RightColumn {
+    background: #17212b !important;
+}
+
+.settings-main-menu>.ChatExtra {
+    border-bottom: 0.625rem solid rgb(23 33 43) !important;
+    box-shadow: inset 0 -0.0625rem 0 0 rgb(60 67 92) !important;
 }
