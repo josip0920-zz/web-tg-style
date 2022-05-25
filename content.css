@@ -42,7 +42,6 @@
 /* Chat */
 .chat-list {
     padding: 1px 0px !important;
-    margin-right: -8px !important;
 }
 
 .ListItem.chat-item-clickable .ListItem-button {
