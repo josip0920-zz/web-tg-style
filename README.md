@@ -1,4 +1,4 @@
-# Simple Chrome Extension Example
+# Web TG extension
 Sample code for a simple Chrome extension that provides quick access to any website.
 
 -----
